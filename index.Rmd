@@ -1,11 +1,18 @@
 --- 
-title: "The tidyverse style guide"
-author: ["Hadley Wickham"]
+title: "The Ecosystem Modelling Facility (EMF) style guide"
+author: ["Original: Hadley Wickham", "Modifications: Víctor Granda"]
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 github-repo: tidyverse/style
 documentclass: book
 ---
+
+
+# Preface {-}
+
+This coding style guide is forked from the [tidyverse style guide](https://style.tidyverse.org/). Some 
+modifications has been made to accommodate EMF R users preferences.
+
 
 # Welcome {-}
 
