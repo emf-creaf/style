@@ -3,7 +3,7 @@
 ## Names
 
 File names should be meaningful and end in `.R`. Avoid using special characters 
-in file names - stick with numbers, letters, `-`, and `_`.
+in file names - stick with numbers, letters, and `_`. Avoid `-` if possible
 
 
     # Good
@@ -12,8 +12,10 @@ in file names - stick with numbers, letters, `-`, and `_`.
 
     # Bad
     fit models.R
+    fit-models.R
     foo.r
     stuff.r
+    
 
 If files should be run in a particular order, prefix them with numbers. If it 
 seems likely you'll have more than 10 files, left pad with zero:
@@ -24,7 +26,7 @@ seems likely you'll have more than 10 files, left pad with zero:
     09_model.R
     10_visualize.R
 
-If you later realise that you've missed some steps, it's tempting to use `02a`, 
+If you later realize that you've missed some steps, it's tempting to use `02a`, 
 `02b`, etc. However, I think it's generally better to bite the bullet and 
 rename all files.
 
